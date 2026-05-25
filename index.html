@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+    <title>Online Quiz Application</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="quiz-box">
+
+        <!-- Semester Selection -->
+
+        <div id="semester-selection">
+
+            <h1>Online Quiz Application</h1>
+
+            <button id="select-semester-btn">
+                Select Semester
+            </button>
+
+            <div id="semester-options" class="hide">
+
+                <button id="semester1-btn">
+                    Semester 1
+                </button>
+
+                <button id="semester2-btn">
+                    Semester 2
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- Subject Selection -->
+
+        <div id="subject-selection" class="hide">
+
+            <h2>Select Subject</h2>
+
+            <div id="subject-buttons"></div>
+
+        </div>
+
+        <!-- Quiz Screen -->
+
+        <div id="quiz-screen" class="hide">
+
+            <div class="top-bar">
+
+                <span id="question-number">
+                    0/0
+                </span>
+
+                <span id="timer">
+                    30s
+                </span>
+
+            </div>
+
+            <h2 id="question">
+                Question Here
+            </h2>
+
+            <div id="answer-buttons"></div>
+
+            <button id="next-btn" class="hide">
+                Next Question
+            </button>
+
+        </div>
+
+        <!-- Result Screen -->
+
+        <div id="result-screen" class="hide">
+
+            <h1 id="score"></h1>
+
+            <button id="restart-btn">
+                Restart Quiz
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
